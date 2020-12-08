@@ -1,5 +1,5 @@
 body{
-    background-color: #222831 ;
+    background-color: #e6e6ff ;
 }
 
 #header {
@@ -7,10 +7,10 @@ body{
 }
 
 #vjudge {
-    float: left;
+    float: center;
     width: 40vw;
     margin-left: 5vw;
-    margin-top: 3vw;
+    margin-top: 5vw;
 }
 
 
