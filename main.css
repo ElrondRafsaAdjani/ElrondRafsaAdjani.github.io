@@ -1,0 +1,61 @@
+﻿body {
+    background-color: #e6e6ff;
+}
+
+#header {
+    width: 100vw;
+}
+
+#vjudge {
+    float: left;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+#sekolah {
+    float: left;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+#credits {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75vw;
+    width: 40vw;
+}
+
+@media screen and (min-width: 1200px) {
+    #header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top : -5vw;
+        width: 800px;
+    }
+
+    #vjudge {
+        float: left;
+        width: 500px;
+        margin-left: 20%;
+        margin-top: -10vw;    
+    }
+
+    #sekolah {
+        float: left;
+        width: 200px;
+        margin-left: 60%;
+        margin-top: -28vw;
+    }
+
+    #credits {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40vw;
+        width: 20vw;
+    }
+}
