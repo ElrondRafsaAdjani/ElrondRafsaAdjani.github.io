@@ -5,6 +5,12 @@
 
 
     <style>
+        h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5,.h6{
+            font-family: inherit !important;
+            font-weight: bold !important;
+            line-height: 1.1 !important;
+            color: inherit !important;
+        }
         .center-headline{
             text-align:center;
             font-size : xx-large;
@@ -19,14 +25,34 @@
             flex : 1;
             padding : 15px;
         }
-
+        .caption{
+            height: 100%;
+            width: 100%;
+        }
+        #news{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            
+        }
+        #news > div {
+            display: flex;
+            
+            flex-direction: column;
+            width: 30%;
+            height: auto;
+           
+            
+            
+        }
         
     </style>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    
     <title>El's Con-nect</title>
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -54,11 +80,10 @@
         </div>
 
         <div class="center-headline">Recent News</div>
-
-        <div class="contents">
+        <div class="container" id="news">
 
             <!-- news 1-->
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            
                 <div class="thumbnail">
                     <a href="blogs.html">
                         <img class="thumbnail-photo" src="youthcamp.jpg" alt="student company" />
@@ -68,16 +93,16 @@
                         <p>Student company is one of JA Indonesia (Junior Achievement Indonesia) program, to train senior high school students to be an entrepreneur </p>
                         <p>
                             It was an absolutly amazing experience. My senior high school is one of five schools in my city to participated in student company program.
-                            We were taught how to be an entrpreneur, pitching, presenting, and entrepreneur based stuff.
+                            We were taught how to be an entrepreneur, pitching, presenting, and entrepreneur based stuff.
                             
                         </p>
                     </div>
-                </div>
-
+               
+                
             </div>
-
+            
             <!-- news 2 -->
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            
                 <div class="thumbnail">
                     <a href="https://vjudge.net/contest/403839">
                         <img class="thumbnail-photo" src="logo wd.png" alt="wd sman 16" />
@@ -88,11 +113,11 @@
                         
                     </div>
                 </div>
-
-            </div>
-
+                
+            
+            
             <!-- news 3 -->
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            
                 <div class="thumbnail">
                     <a href="blogs.html">
                         <img class="thumbnail-photo" src="logo wd.png" alt="wd sman 16" />
@@ -107,10 +132,10 @@
                     </div>
                 </div>
 
-            </div>
-
+    
 
         </div>
+       
     </div>
 
 
